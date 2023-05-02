@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Isaac vai tomar no cu</title>
     <style>
         *{
             margin: 0;
@@ -19,7 +19,7 @@
             text-align: center;
         }
         .image{
-            width: 800px;
+            width: 600px;
             margin: 0 auto;
         }
         img{
@@ -29,12 +29,36 @@
             font-size: 18px;
             text-align: center;
         }
+        .hide{
+            display: none;
+        }
+        button{
+            border: none;
+            background-color: blue;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        .campo-btn{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        @media (max-width:768px) {	
+            .image{
+                width: 300px;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>Bom dia!</h1>
+    <div class="campo-btn"><button id="gerar">Gerar insulto</button></div>
+    
     <div class="texto"></div>
-    <div class="image">
+    <div class="image hide">
         <img src="" alt="IMAGE ALEATORIA">
     </div>
     
